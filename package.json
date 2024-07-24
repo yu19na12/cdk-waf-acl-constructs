@@ -1,0 +1,36 @@
+{
+    "name": "cdk-waf-acl-constructs",
+    "version": "0.1.0",
+    "description": "AWS CDK constructs for common WAF ACL patterns",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "watch": "tsc -w",
+      "test": "jest"
+    },
+    "keywords": [
+      "aws",
+      "cdk",
+      "waf",
+      "acl",
+      "constructs"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+      "@types/jest": "^29.5.0",
+      "@types/node": "^20.0.0",
+      "jest": "^29.5.0",
+      "ts-jest": "^29.1.0",
+      "typescript": "^5.0.0"
+    },
+    "dependencies": {
+      "aws-cdk-lib": "^2.0.0",
+      "constructs": "^10.0.0"
+    },
+    "peerDependencies": {
+      "aws-cdk-lib": "^2.0.0",
+      "constructs": "^10.0.0"
+    }
+  }
