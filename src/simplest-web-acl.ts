@@ -12,7 +12,7 @@ export class SimplestWebAcl extends Construct {
     super(scope, id);
 
     let waf_region = props.region
-    if ( props.scope = "CLOUDFRONT" ){
+    if (props.scope = "CLOUDFRONT") {
       waf_region = "us-east-1"
     }
 
